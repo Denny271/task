@@ -1,0 +1,31 @@
+.white-keys kbd{
+    display: inline-block;
+    height: 100px;
+    width: 30px;
+    border: black 1px solid;
+    background-color: white;
+    margin-right: -.36em
+}
+.black-keys kbd{
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 28px;
+    top: -104px;
+    left: 16px;
+}
+.black-keys .leftX{
+    position: relative;
+    left: 45px;
+}
+.container{
+    height: 120px;
+    width: 250px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+body{
+    background-color: darkgrey;
+}
